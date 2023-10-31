@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.7'
 
-  spec.add_runtime_dependency 'net-sftp', '~>2.1'
+  spec.add_runtime_dependency 'net-sftp', '>= 2.1'
 
   spec.add_development_dependency 'factory_bot'
   spec.add_development_dependency 'rspec'
